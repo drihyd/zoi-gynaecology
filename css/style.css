@@ -366,6 +366,14 @@ section {
 	}
 }
 
+.text-white{
+	color: #fff;
+}
+
+.text-lightblue{
+	color: #9DEAFC;
+}
+
 .margin-0 {
 	margin: 0 !important
 }
@@ -937,10 +945,28 @@ section {
 	}
 }
 
+.prenatal-section{
+	margin-top: -70px;
+    position: relative;
+}
+
 .info .wrapper {
-	text-align: center;
-	min-height: 200px;
-	padding: 15px 10px
+	padding: 40px 30px;
+	padding-bottom: 30px;
+}
+
+.prenatal-text{
+	font-size: 20px;
+	font-weight: 600;
+}
+
+ul.prenatal-list{
+	padding-left: 20px;
+}
+
+ul.prenatal-list li{
+	font-size: 18px;
+	margin-bottom: 8px;
 }
 
 @media (max-width: 480px) {
