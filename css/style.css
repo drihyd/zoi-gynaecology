@@ -1799,7 +1799,7 @@ section.dark h6 {
 #selectroom .modal-body {
 background-color: #f3eeee;
     height: auto;
-   min-height:466px;
+   min-height:600px;
 }
 
 input[type=radio] {
@@ -2541,4 +2541,12 @@ input[type="radio"]+label
     text-align: center;
     line-height: 23px;
     font-weight: 500
+}
+.packagess+label
+{
+	width:20% !important;
+}
+.packageroom
+{
+	margin-left: 20% !important
 }
