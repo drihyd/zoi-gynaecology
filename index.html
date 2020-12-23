@@ -343,53 +343,74 @@
                                           <h2 class="fs-title">Avail Your Package Only For</h2>
                                           <div class="row">
                                              <div class="col-sm-4">
+                                                <div class="round-box"> 
                                                 <input type="radio" id= "p_1" name="room-select" value="3rd Trimester" required="required"  onclick="package_1()" class="onselectpackage"> 
-                                                <h3>3rd Trimester</h3><span class="general-text">
-                                                (Including Delivery) </span>
+                                               <label for="p_1">3rd Trimester </label>
+                                             </div>
                                              </div>
                                              <div class="col-sm-4">
+                                                 <div class="round-box"> 
                                                 <input type="radio" id= "p_2" name="room-select" value="2nd & 3rd Trimester" required="required"  onclick="package_2()" class="onselectpackage"> 
-                                                <h3>2nd & 3rd Trimester</h3><span class="general-text">
-                                                (Including Delivery) </span>
-                                             </div>
-                                             <div class="col-sm-4">
-                                                <input type="radio" id= "p_3" name="room-select" value="1st, 2nd & 3rd Trimester" required="required"  onclick="package_3()" class="onselectpackage">
-                                                <h3>1st, 2nd & 3rd Trimester</h3><span class="general-text">
-                                                (Including Delivery) </span>
-                                             </div>
-                                             <div class="col-sm-4" style="margin-left: -0.3%;">
-                                                <input type="radio" id= "p_4" name="room-select" value="1st, 2nd & 3rd Trimester (Excluding Delivery)" required="required" class="general onselectpackage package-4" onclick="package_4()" > 
-                                                <h3 style="margin-left: -0.3%;">1st, 2nd & 3rd Trimester</h3>
-                                             <span class="general-text"> (Excluding Delivery) </span>
+                                                <!-- <h3>2nd & 3rd Trimester</h3><span class="general-text">
+                                                (Including Delivery) </span> -->
+
+                                                <label for="p_2">2nd & 3rd Trimester </label>
+
 
                                              </div>
-                                             <div class="col-sm-6" style="margin-left: -0.3%;">
-                                                <input type="radio" id= "p_5" name="room-select" value="Only delivery and Post-operation care" required="required" class="onselectpackage general-1" onclick="package_5()" > 
-                                                <h3 style="padding-left: 4%">Only delivery + Post-operation care</h3 >
+                                             </div>
+                                             <div class="col-sm-4">
+                                                 <div class="round-box"> 
+                                                <input type="radio" id= "p_3" name="room-select" value="1st, 2nd & 3rd Trimester" required="required"  onclick="package_3()" class="onselectpackage">
+                                               <!--  <h3>1st, 2nd & 3rd Trimester</h3><span class="general-text">
+                                                (Including Delivery) </span> -->
+
+                                                 <label for="p_3">1st, 2nd & 3rd Trimester </label>
+
+
+                                             </div>
+                                             </div>
+                                             <div class="col-sm-4">
+                                                 <div class="round-box"> 
+                                                <input type="radio" id= "p_4" name="room-select" value="1st, 2nd & 3rd Trimester (Excluding Delivery)" required="required" class="general onselectpackage package-4" onclick="package_4()" style="margin-left: -.6% !important"> 
+                                                <!-- <h3 >1st, 2nd & 3rd Trimester</h3>
+                                             <span class="general-text"> (Excluding Delivery) </span> -->
+
+                                              <label for="p_4">1st, 2nd & 3rd Trimester </label>
+</div>
+                                             </div>
+                                             <div class="col-sm-6">
+                                                 <div class="round-box" style="width: 40%"> 
+                                                <input type="radio" id= "p_5" name="room-select" value="Only delivery and Post-operation care" required="required" class="onselectpackage general-1" onclick="package_5()"> 
+                                               <!--  <h3>Only delivery + Post-operation care</h3 > -->
+
+ <label for="p_5">Only delivery + Post-operation care </label>
+
+                                             </div>
                                              </div>
                                           </div>
                                           <input type="button" name="next" id="b-1" class="first-btn next action-button price-btn disabled "  value="CHOOSE" required="required" disabled>
                                        </fieldset>
                                        <fieldset class="second-filed">
-                                          <h2 class="fs-title">CHOOSE YOUR ROM</h2>
+                                          <h2 class="fs-title">CHOOSE YOUR ROOM</h2>
                                           <div class="row">
                                              <div class="col-sm-4">
                                                 <input type="radio" id="r_1" name="package" value="Sharing Room" required="required" onclick="room_1()" class="onselectroom"> 
-                                                <h3>Sharing</h3>
+                                               <label for="r_1">Sharing </label>
                                              </div>
                                              <div class="col-sm-4">
                                                 <input type="radio" id="r_2" name="package" value="Single Room" required="required" onclick="room_2()" class="onselectroom"> 
-                                                <h3>Single Room</h3>
+                                               <label for="r_2">Single Room  </label>
                                              </div>
                                              <div class="col-sm-4">
                                                 <input type="radio" id="r_3" name="package" value="Deluxe Room" required="required" onclick="room_3()" class="onselectroom">
-                                                <h3> Deluxe Room</h3>
+                                               <label for="r_3"> Deluxe Room  </label>
                                              </div>
                                              <div class="col-sm-4">
                                                 <input type="radio" id="r_4" name="package" value="Economy Ward" required="required" class="general roomm" onclick="room_4()" class="onselectroom "> 
-                                                <h3>Economy/ General Ward</h3>
-                                                <span class="general-text">
-                                                Only At Attapur </span>
+                                               <label for="r_4" style="margin-left: -0.6%">Economy/ General Ward  </label>
+                                               <!--  <span class="general-text">
+                                                Only At Attapur </span> -->
                                              </div>
                                           </div>
                                              <input type="button" name="previous" class="previous action-button-previous" value="Previous"/>
