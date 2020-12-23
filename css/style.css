@@ -2215,25 +2215,6 @@ width: 45%;
     font-weight:600;
     margin-left:5px;
 }
-<<<<<<< Updated upstream
-.dark-blue
-{
-	background-color: #005886;
-}
-.color-white
-{
-	color: #fff
-}
-.testimonials-box
-{
-	background-color: #fff;
-	padding:30px 40px;
-}
-.testimonial
-{
-	position: absolute;
-	margin-top:30px;
-=======
 
 .precious-card{
 	width: 20%;
@@ -2247,5 +2228,4 @@ width: 45%;
 .precious-card img{
 	width: 130px;
 	margin: auto;
->>>>>>> Stashed changes
 }
