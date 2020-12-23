@@ -2206,3 +2206,21 @@ width: 45%;
     font-weight:600;
     margin-left:5px;
 }
+.dark-blue
+{
+	background-color: #005886;
+}
+.color-white
+{
+	color: #fff
+}
+.testimonials-box
+{
+	background-color: #fff;
+	padding:30px 40px;
+}
+.testimonial
+{
+	position: absolute;
+	margin-top:30px;
+}
