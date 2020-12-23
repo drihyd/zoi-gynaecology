@@ -2520,6 +2520,7 @@ div{
 input[type=radio]
 {
 	visibility: hidden;
+
 }
 
 input[type="radio"]:checked+label
@@ -2532,9 +2533,12 @@ input[type="radio"]+label
 {
  background-color: #015788;
     color: #fff;
-    border-radius: 26px;
+    border-radius: 54px;
     margin-bottom: 10px;
     width: 74%;
-    padding: 12px 30px;
-    font-size: 16px;
+    padding: 8px 30px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 23px;
+    font-weight: 500
 }
