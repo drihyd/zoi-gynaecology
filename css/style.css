@@ -898,7 +898,7 @@ section {
 	.hero:before {
 		content: '';
 		display: block;
-		background: rgba(0, 0, 0, 0.28);
+		/*background: rgba(0, 0, 0, 0.28);*/
 		position: absolute;
 		left: 0;
 		top: 0;
@@ -1758,7 +1758,7 @@ section.dark h6 {
 
 @media (min-width: 768px) {
 	.modal-sm {
-		width: 90%;
+		width: 60%;
 	}
 	.form-modal
 	{
@@ -1793,11 +1793,11 @@ section.dark h6 {
 }
 
 #selectpackage .modal-body {
-	background-color: #f3eeee;
+	background-color: #fff;
 }
 
 #selectroom .modal-body {
-background-color: #f3eeee;
+background-color: #fff;
     height: auto;
    min-height:600px;
 }
@@ -2034,7 +2034,7 @@ input[type=radio] {
 fieldset .col-sm-4 {
 	text-align: left;
 	width: 100%;
-	margin-left: 33.5%
+	    margin-left: 19.5%;
 }
 
 fieldset .col-sm-5,
@@ -2067,9 +2067,9 @@ fieldset .col-sm-6 {
 
 @media only screen and (max-width: 499px) {
     #selectroom .modal-body {
-background-color: #f3eeee;
+background-color: #ffff;
     height: auto;
-    min-height: 530px;
+    min-height: 600px;
 }
 
 	input[type=radio] {
@@ -2114,7 +2114,7 @@ background-color: #f3eeee;
 	}
 	#selectroom .modal-body {
 		height: auto;
-    min-height: 419px;
+    min-height:600px;
 	}
 }
 
@@ -2272,6 +2272,22 @@ width: 45%;
 }
 
 @media(max-width: 480px){
+	.round-box {
+    width: 100% !important;
+}
+fieldset .col-sm-4 {
+    text-align: left;
+    width: 100%;
+    margin-left: -5% !important;
+}
+#p_5
+{
+	margin-left: 0% !important
+}
+.packagess+label {
+    width: 100% !important;
+}
+
 	.prenatal-section {
 	    margin-top: initial;
 	}
@@ -2506,7 +2522,7 @@ div{
 }
 .round-box
 {
-	width: 30%;
+	width: 50%;
    
 }
 .round-box h3 
@@ -2544,9 +2560,17 @@ input[type="radio"]+label
 }
 .packagess+label
 {
-	width:20% !important;
+	width:40% !important;
 }
 .packageroom
 {
-	margin-left: 20% !important
+	margin-left: 8% !important
+}
+@media (max-width: 480px)
+{
+	.packagess+label
+{
+	width:70% !important;
+	
+}
 }
